@@ -1,0 +1,33 @@
+.Footer-List{
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    min-height: 550px;
+    width: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* width: 100%; */
+    /* margin-left: 50px; */
+}
+.Footer-List-Item{
+    /* float: left; */
+    padding: 16px;
+    align-items: center;
+}
+@media(max-width:600px){
+    .Footer-List{
+        position: relative;
+        bottom: 30px;
+        left: 0;
+        z-index: 1;
+        height: 100%;
+        min-height: 550px;
+        width: 50px;
+        display: none;
+        /* flex-direction: row; */
+        /* width: 100%; */
+        /* margin-left: 50px; */
+    }
+}

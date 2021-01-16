@@ -1,0 +1,28 @@
+li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.Contact {
+    animation: fadeIn 2s ease-in ;
+}
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.Contact-Text{
+    font-size: 30px;
+    font-weight: 300;
+}
+.Contact-Heading {
+        font-size: 80px;
+        font-weight: 500;
+}
+
+@media(max-width: 600px){
+    .Contact-Heading{
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+    }
+}

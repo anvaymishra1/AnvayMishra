@@ -1,0 +1,46 @@
+.About{
+    top:0px;
+    margin-top: 0px;
+    margin-left: 100px;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.Logo{
+    height: 20%;
+    width: 20%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.Heading{
+    margin: 0 0 30px 0;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.About-Text{
+    font-size: 30px;
+    color: #808080;
+    text-align: left;
+}
+
+@media (max-width: 600px){
+    .About{
+        margin-left: 20px;
+        width: 90%;
+    }
+    .Heading{
+        font-size: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    .About-Text{
+        font-size: 20px;
+    }
+}

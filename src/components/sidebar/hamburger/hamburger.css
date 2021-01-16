@@ -1,0 +1,15 @@
+.Hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(250, 250, 250);
+    margin: 6px 0;
+    
+}
+.Hamburger-Container{
+    top:30px;
+    left: 20px;
+    position: fixed;
+}
+.Hamburger-Change {
+    display: none;
+}

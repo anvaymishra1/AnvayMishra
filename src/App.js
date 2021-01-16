@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
+
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact"
+import Projects from "./Pages/Projects/Projects";
+
+import "./App.css";
 
 function App() {
+  // const [header,setHeader] = useState(false);
+  // const sidebar = !header?<hamburger></hamburger>:<Sidebar></Sidebar>
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Header></Header>
+        {/* {sidebar} */}
+        {/* <Sidebar></Sidebar> */}
+        <div className="Container">
+          <Switch>
+            <Route exact path = "/" component= {Home}></Route>
+            <Route exact path = "/about" component= {About}></Route>
+            <Route exact path = "/projects" component= {Projects}></Route>
+            <Route exact path = "/contact" component= {Contact}></Route>
+            <Home></Home>
+          </Switch>
+        </div>
+        <Footer></Footer>
+      </div>
+    </Router>
   );
 }
 

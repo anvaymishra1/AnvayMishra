@@ -1,0 +1,75 @@
+.Links{
+    float: right;
+    margin: 1%;
+    margin-right: 50px;
+    padding: 1%;
+    padding-right: 30px;
+    top: 20px;
+    color: white;
+    /* width: 20%; */
+    /* position: fixed; */
+}
+.Navbar-Links{
+    margin: 2%;
+    padding: 1%;
+    width: 50px;
+    margin-right: 50px;
+}
+.Link-Component{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Navbar-Links :hover{
+    color: rgb(0, 127, 177);
+}
+
+@media (max-width: 600px){
+    .Change {
+        /* float: center; */
+        margin: 1%;
+        padding: 1%;
+        /* float: inline-start; */
+
+        /* padding-right: 3%; */
+        /* top: 20px; */
+        color: white;
+        width: 70%;
+        
+        /* align-items: center; */
+        /* position: fixed; */
+    }
+    .Change div:nth-child(1) {
+        transform: rotate(45deg) translate(3px, 1px);
+    }
+    .Change div:nth-child(2) {
+        Transform: scaleX(0);
+    }
+    .Change div:nth-child(3) {
+        transform: rotate(-45deg) translate(-8px, 5.8px);
+    }
+    .Links{
+        display: none;
+    }
+    .Hamburger {
+        width:2em;
+        height:.2em;
+        margin:0.26em 0;
+        background-color: rgb(250, 250, 250);
+        transition: all .4s ease;
+    transform-origin:0 0;
+        
+    }
+    .Hamburger-Container{
+        top:30px;
+        left: 20px;
+        position: relative;
+    }
+    .Navbar-Links{
+        margin: 2%;
+        padding: 1%;
+        /* width: 50px; */
+        /* margin-right: 50px; */
+    }
+}

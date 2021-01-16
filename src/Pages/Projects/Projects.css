@@ -1,0 +1,16 @@
+.Title{
+    font-size: 7rem;
+}
+.Projects {
+    animation: fadeIn 2s ease-out;
+}
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@media(max-width : 600px){
+    .Title{
+        font-size: 60px;
+        margin: 10px 0px;
+    }
+}

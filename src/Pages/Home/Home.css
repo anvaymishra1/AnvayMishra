@@ -1,0 +1,132 @@
+.Home{
+    top:20%;
+    margin-top: 0px;
+    margin-left: 100px;
+    height: auto;
+    width: 80%;
+    text-align: left;
+}
+.one-second-animation {
+    animation: fadeIn 1s ease;
+    -webkit-animation: fadeIn 1s ease;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+.Hello-Text{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+.three-second-animation {
+    animation: fadeIn 2s ease;
+    -webkit-animation: fadeIn 2s ease;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+.Big-Text{
+    /* margin: 2px; */
+    font-size: 7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.five-second-animation {
+    animation: fadeIn 3s ease;
+    -webkit-animation: fadeIn 3s ease;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+.Desciption-Text{
+    /* margin: 4 px; */
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seven-second-animation {
+    animation: fadeIn 4s ease;
+    -webkit-animation: fadeIn 4s ease;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+.Tech-Stack{
+    /* margin: 4 px; */
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nine-second-animation {
+    animation: fadeIn 5s ease;
+    -webkit-animation: fadeIn 5s ease;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+.Contact-Button{
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: #fff;
+    color: #000000;
+    padding: 2%  4%;
+    /* width: 12vw;
+    height: 4vh; */
+    border: solid;
+    border-color: #000;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@media (max-width: 600px){
+    .Home{
+        margin: 20px 20px;
+        text-align: left;
+    }
+    .Hello-Text{
+        font-size: 15px;
+    }
+    .Big-Text{
+        font-size: 60px;
+        margin: 0 8px;
+    }
+    .Desciption-Text{
+        /* margin: 4 px; */
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .Tech-Stack{
+        /* margin: 4 px; */
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
