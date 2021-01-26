@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://anvaymishra1.in/sitemap.xml
+Sitemap: https://anvaymishra.in/sitemap.xml
