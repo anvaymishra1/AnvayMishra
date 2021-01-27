@@ -1,47 +1,51 @@
-.Project-Card{
-    width: 40%;
-    border-color: #606060;
-    border-radius: 25px;
-    border-width: 4px;
-    border-style: solid;
-    margin: 2%;
-    /* padding: 10px; */
-    min-width: 400px;
+.Project-Card {
+  width: 40%;
+  border-color: #606060;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  margin: 2%;
+  /* padding: 10px; */
+  min-width: 400px;
 }
-.Project-Card:hover{
-    width: 40%;
-    border-color: #606060;
-    border-radius: 25px;
-    border-width: 4px;
-    border-style: solid;
-    margin: 10px;
-    padding: 10px;
-    background-color: 	#414e53;
-    color: white;
+.Project-Card:hover {
+  width: 40%;
+  border-color: #606060;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: #414e53;
+  color: white;
 }
-.Project-Title{
-    font-size: 40px;
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
+.Project-Title {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
 }
-.Project-Text{
+.Project-Text {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .Project-Card {
+    width: 80%;
+    min-width: 200px;
+  }
+  .Project-Title {
     font-size: 20px;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .Project-Text {
+    font-size: 15px;
     font-weight: 200;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-@media (max-width: 600px){
-    .Project-Card{
-        width: 80%;
-        min-width: 200px;
-    }
-    .Project-Title{
-        font-size: 20px;
-        font-weight: 400;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .Project-Text{
-        font-size: 15px;
-        font-weight: 200;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+  }
 }

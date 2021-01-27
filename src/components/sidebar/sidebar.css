@@ -22,7 +22,7 @@
 }
 
 .Navbar-Links :hover{
-    color: rgb(0, 127, 177);
+    color: #8A4F7D;
 }
 
 @media (max-width: 600px){
