@@ -6,7 +6,7 @@ function socialMediaIcons(props) {
     return (
         <>
             <li className = "Footer-List-Item">
-                    <SocialIcon bgColor = "#CF5C36" url = {props.url}>{props.name}</SocialIcon>
+                    <SocialIcon bgColor = "#CF5C36" url = {props.url} target="_blank" rel="noopener noreferrer">{props.name}</SocialIcon>
             </li>
         </>
     )
